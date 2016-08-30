@@ -19,9 +19,30 @@
 		13E501EE1D07A6C9005F35D8 /* RCTStyleAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501E31D07A6C9005F35D8 /* RCTStyleAnimatedNode.m */; };
 		13E501EF1D07A6C9005F35D8 /* RCTTransformAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501E51D07A6C9005F35D8 /* RCTTransformAnimatedNode.m */; };
 		13E501F01D07A6C9005F35D8 /* RCTValueAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501E71D07A6C9005F35D8 /* RCTValueAnimatedNode.m */; };
+		2DD2E51B1D74ECBF0098839E /* RCTAnimationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501B81D07A644005F35D8 /* RCTAnimationUtils.m */; };
+		2DD2E51C1D74ECBF0098839E /* RCTViewPropertyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501C81D07A644005F35D8 /* RCTViewPropertyMapper.m */; };
+		2DD2E51D1D74ECBF0098839E /* RCTNativeAnimatedModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501BE1D07A644005F35D8 /* RCTNativeAnimatedModule.m */; };
+		2DD2E51E1D74ECC80098839E /* RCTAdditionAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501D71D07A6C9005F35D8 /* RCTAdditionAnimatedNode.m */; };
+		2DD2E51F1D74ECC80098839E /* RCTAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501D91D07A6C9005F35D8 /* RCTAnimatedNode.m */; };
+		2DD2E5201D74ECC80098839E /* RCTAnimationDriverNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501DB1D07A6C9005F35D8 /* RCTAnimationDriverNode.m */; };
+		2DD2E5211D74ECC80098839E /* RCTInterpolationAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501DD1D07A6C9005F35D8 /* RCTInterpolationAnimatedNode.m */; };
+		2DD2E5221D74ECC80098839E /* RCTMultiplicationAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501DF1D07A6C9005F35D8 /* RCTMultiplicationAnimatedNode.m */; };
+		2DD2E5231D74ECC80098839E /* RCTPropsAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501E11D07A6C9005F35D8 /* RCTPropsAnimatedNode.m */; };
+		2DD2E5241D74ECC80098839E /* RCTStyleAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501E31D07A6C9005F35D8 /* RCTStyleAnimatedNode.m */; };
+		2DD2E5251D74ECC80098839E /* RCTTransformAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501E51D07A6C9005F35D8 /* RCTTransformAnimatedNode.m */; };
+		2DD2E5261D74ECC80098839E /* RCTValueAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E501E71D07A6C9005F35D8 /* RCTValueAnimatedNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2DD2E5101D74ECAA0098839E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,9 +80,17 @@
 		13E501E51D07A6C9005F35D8 /* RCTTransformAnimatedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTTransformAnimatedNode.m; sourceTree = "<group>"; };
 		13E501E61D07A6C9005F35D8 /* RCTValueAnimatedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTValueAnimatedNode.h; sourceTree = "<group>"; };
 		13E501E71D07A6C9005F35D8 /* RCTValueAnimatedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTValueAnimatedNode.m; sourceTree = "<group>"; };
+		2DD2E5121D74ECAA0098839E /* libRCTAnimation tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRCTAnimation tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2DD2E50F1D74ECAA0098839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58B511D81A9E6C8500147676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,12 +145,30 @@
 				13E501BE1D07A644005F35D8 /* RCTNativeAnimatedModule.m */,
 				13E501D51D07A6C9005F35D8 /* Nodes */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				2DD2E5121D74ECAA0098839E /* libRCTAnimation tvOS.a */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2DD2E5111D74ECAA0098839E /* RCTAnimation tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD2E51A1D74ECAA0098839E /* Build configuration list for PBXNativeTarget "RCTAnimation tvOS" */;
+			buildPhases = (
+				2DD2E50E1D74ECAA0098839E /* Sources */,
+				2DD2E50F1D74ECAA0098839E /* Frameworks */,
+				2DD2E5101D74ECAA0098839E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RCTAnimation tvOS";
+			productName = "RCTAnimation tvOS";
+			productReference = 2DD2E5121D74ECAA0098839E /* libRCTAnimation tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		58B511DA1A9E6C8500147676 /* RCTAnimation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RCTAnimation" */;
@@ -148,6 +195,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
+					2DD2E5111D74ECAA0098839E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -166,11 +216,31 @@
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RCTAnimation */,
+				2DD2E5111D74ECAA0098839E /* RCTAnimation tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2DD2E50E1D74ECAA0098839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD2E5261D74ECC80098839E /* RCTValueAnimatedNode.m in Sources */,
+				2DD2E5241D74ECC80098839E /* RCTStyleAnimatedNode.m in Sources */,
+				2DD2E51C1D74ECBF0098839E /* RCTViewPropertyMapper.m in Sources */,
+				2DD2E51B1D74ECBF0098839E /* RCTAnimationUtils.m in Sources */,
+				2DD2E5221D74ECC80098839E /* RCTMultiplicationAnimatedNode.m in Sources */,
+				2DD2E5231D74ECC80098839E /* RCTPropsAnimatedNode.m in Sources */,
+				2DD2E51F1D74ECC80098839E /* RCTAnimatedNode.m in Sources */,
+				2DD2E5211D74ECC80098839E /* RCTInterpolationAnimatedNode.m in Sources */,
+				2DD2E51E1D74ECC80098839E /* RCTAdditionAnimatedNode.m in Sources */,
+				2DD2E5201D74ECC80098839E /* RCTAnimationDriverNode.m in Sources */,
+				2DD2E5251D74ECC80098839E /* RCTTransformAnimatedNode.m in Sources */,
+				2DD2E51D1D74ECBF0098839E /* RCTNativeAnimatedModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +263,45 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		2DD2E5181D74ECAA0098839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2DD2E5191D74ECAA0098839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
 		58B511ED1A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -313,6 +422,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2DD2E51A1D74ECAA0098839E /* Build configuration list for PBXNativeTarget "RCTAnimation tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD2E5181D74ECAA0098839E /* Debug */,
+				2DD2E5191D74ECAA0098839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RCTAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
