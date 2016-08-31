@@ -54,8 +54,8 @@ else
 fi
 
 # Apple TV environment
-XCODE_PROJECT="Examples/UIExplorer/UIExplorerTV.xcodeproj"
-XCODE_SCHEME="UIExplorer"
+XCODE_PROJECT="Examples/UIExplorer/UIExplorer.xcodeproj"
+XCODE_SCHEME="UIExplorertvOS"
 XCODE_SDK="appletvsimulator"
 XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV 1080p,OS=9.2"
 
