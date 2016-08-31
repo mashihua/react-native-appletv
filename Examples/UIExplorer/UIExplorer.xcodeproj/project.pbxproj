@@ -57,6 +57,52 @@
 		272E6B3F1BEA849E001FCF37 /* UpdatePropertiesExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E6B3C1BEA849E001FCF37 /* UpdatePropertiesExampleView.m */; };
 		27B885561BED29AF00008352 /* RCTRootViewIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B885551BED29AF00008352 /* RCTRootViewIntegrationTests.m */; };
 		27F441EC1BEBE5030039B79C /* FlexibleSizeExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F441E81BEBE5030039B79C /* FlexibleSizeExampleView.m */; };
+		2DC39AEE1D76497B00014B71 /* LaunchScreenTV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DC39AEB1D76494E00014B71 /* LaunchScreenTV.xib */; };
+		2DC39AEF1D7649B000014B71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2DC39AF01D7649B500014B71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2DC39AF11D7649B900014B71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DC39AF21D7649C500014B71 /* LegacyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AFAF41D646CF80089D1A3 /* LegacyImage.png */; };
+		2DC39AF41D764A2500014B71 /* RCTURLUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B6C1A21C34225900D3FAF5 /* RCTURLUtilsTests.m */; };
+		2DC39AF51D764A2500014B71 /* RCTBundleURLProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF44371CF6111500720EFD /* RCTBundleURLProviderTests.m */; };
+		2DC39AF61D764A2500014B71 /* RCTAllocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497CFA41B21F5E400C1F8F2 /* RCTAllocationTests.m */; };
+		2DC39AF71D764A2500014B71 /* RCTBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497CFA51B21F5E400C1F8F2 /* RCTBridgeTests.m */; };
+		2DC39AF81D764A2500014B71 /* RCTJSCExecutorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497CFA61B21F5E400C1F8F2 /* RCTJSCExecutorTests.m */; };
+		2DC39AF91D764A2500014B71 /* RCTConvert_NSURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497CFA71B21F5E400C1F8F2 /* RCTConvert_NSURLTests.m */; };
+		2DC39AFA1D764A2500014B71 /* RCTFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497CFA81B21F5E400C1F8F2 /* RCTFontTests.m */; };
+		2DC39AFB1D764A2500014B71 /* RCTEventDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497CFA91B21F5E400C1F8F2 /* RCTEventDispatcherTests.m */; };
+		2DC39AFC1D764A2500014B71 /* RCTGzipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1300627E1B59179B0043FE5A /* RCTGzipTests.m */; };
+		2DC39AFD1D764A2500014B71 /* RCTImageLoaderHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385CF031B87479200C6273E /* RCTImageLoaderHelpers.m */; };
+		2DC39AFE1D764A2500014B71 /* RCTImageLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385CEF41B873B5C00C6273E /* RCTImageLoaderTests.m */; };
+		2DC39AFF1D764A2500014B71 /* RCTImageUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 144D21231B2204C5006DB32B /* RCTImageUtilTests.m */; };
+		2DC39B001D764A2500014B71 /* RCTJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DB03471B5D2ED500C27245 /* RCTJSONTests.m */; };
+		2DC39B011D764A2500014B71 /* RCTMethodArgumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DF61B51B67A45000EDB188 /* RCTMethodArgumentTests.m */; };
+		2DC39B021D764A2500014B71 /* RCTModuleInitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 134CB9291C85A38800265FA6 /* RCTModuleInitTests.m */; };
+		2DC39B031D764A2500014B71 /* RCTModuleInitNotificationRaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13129DD31C85F87C007D611C /* RCTModuleInitNotificationRaceTests.m */; };
+		2DC39B041D764A2500014B71 /* RCTModuleMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1393D0371B68CD1300E1B601 /* RCTModuleMethodTests.m */; };
+		2DC39B051D764A2500014B71 /* RCTShadowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138D6A161B53CD440074A87E /* RCTShadowViewTests.m */; };
+		2DC39B061D764A2500014B71 /* RCTUIManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497CFAB1B21F5E400C1F8F2 /* RCTUIManagerTests.m */; };
+		2DC39B071D764A2500014B71 /* RCTComponentPropsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BCE84E1C9C209600DD7AAD /* RCTComponentPropsTests.m */; };
+		2DC39B081D764A3100014B71 /* RCTLoggingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D299BAE1D33EBFA00FA1057 /* RCTLoggingTests.m */; };
+		2DC39B091D764A3100014B71 /* RCTRootViewIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B885551BED29AF00008352 /* RCTRootViewIntegrationTests.m */; };
+		2DC39B0A1D764A3100014B71 /* UIExplorerIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB99D0B1BA0340600302749 /* UIExplorerIntegrationTests.m */; };
+		2DC39B0B1D764A3100014B71 /* UIExplorerSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143BC5A01B21E45C00462512 /* UIExplorerSnapshotTests.m */; };
+		2DC39B0C1D764A3100014B71 /* RCTUIManagerScenarioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83636F8E1B53F22C009F943E /* RCTUIManagerScenarioTests.m */; };
+		2DC39B0D1D764A8F00014B71 /* libRCTActionSheet tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AAF1D7648FD00014B71 /* libRCTActionSheet tvOS.a */; };
+		2DC39B0E1D764A8F00014B71 /* libRCTAdSupport tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AB31D7648FD00014B71 /* libRCTAdSupport tvOS.a */; };
+		2DC39B0F1D764A8F00014B71 /* libRCTAnimation tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AB71D7648FD00014B71 /* libRCTAnimation tvOS.a */; };
+		2DC39B101D764A8F00014B71 /* libRCTCameraRoll tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39ABB1D7648FD00014B71 /* libRCTCameraRoll tvOS.a */; };
+		2DC39B111D764A8F00014B71 /* libRCTGeolocation tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39ABF1D7648FD00014B71 /* libRCTGeolocation tvOS.a */; };
+		2DC39B121D764A8F00014B71 /* libRCTImage tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AC31D7648FD00014B71 /* libRCTImage tvOS.a */; };
+		2DC39B131D764A8F00014B71 /* libRCTLinking tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AC71D7648FD00014B71 /* libRCTLinking tvOS.a */; };
+		2DC39B141D764A8F00014B71 /* libRCTNetwork tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39ACB1D7648FD00014B71 /* libRCTNetwork tvOS.a */; };
+		2DC39B151D764A8F00014B71 /* libRCTPushNotification tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39ACF1D7648FD00014B71 /* libRCTPushNotification tvOS.a */; };
+		2DC39B161D764A8F00014B71 /* libRCTSettings tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AD31D7648FD00014B71 /* libRCTSettings tvOS.a */; };
+		2DC39B181D764A8F00014B71 /* libRCTText tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39ADB1D7648FD00014B71 /* libRCTText tvOS.a */; };
+		2DC39B191D764A8F00014B71 /* libRCTVibration tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39ADF1D7648FD00014B71 /* libRCTVibration tvOS.a */; };
+		2DC39B1A1D764A8F00014B71 /* libRCTWebSocket tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AE31D7648FD00014B71 /* libRCTWebSocket tvOS.a */; };
+		2DC39B1B1D764A8F00014B71 /* libReact tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AE71D7648FD00014B71 /* libReact tvOS.a */; };
+		2DC39B961D764D7800014B71 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D6D7101B220EB3001FB087 /* libOCMock.a */; };
+		2DC39BC41D764F8800014B71 /* TestBundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 3DD981D51D33C6FB007DC7BE /* TestBundle.js */; };
 		3578590A1B28D2CF00341EDB /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 357859011B28D2C500341EDB /* libRCTLinking.a */; };
 		3D299BAF1D33EBFA00FA1057 /* RCTLoggingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D299BAE1D33EBFA00FA1057 /* RCTLoggingTests.m */; };
 		3D2AFAF51D646CF80089D1A3 /* LegacyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AFAF41D646CF80089D1A3 /* LegacyImage.png */; };
@@ -155,6 +201,132 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RCTPushNotification;
 		};
+		2DC39A951D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DC39A7E1D7648FD00014B71;
+			remoteInfo = UIExplorertvOS;
+		};
+		2DC39AA01D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DC39A7E1D7648FD00014B71;
+			remoteInfo = UIExplorertvOS;
+		};
+		2DC39AAE1D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E0EEC81AB118F7000DECC3 /* RCTActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DC1A5151D74E6CC00E39E61;
+			remoteInfo = "RCTActionSheet tvOS";
+		};
+		2DC39AB21D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 134454551AAFCAAE003F0779 /* RCTAdSupport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DB35AE11D74E89500FFDB3E;
+			remoteInfo = "RCTAdSupport tvOS";
+		};
+		2DC39AB61D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E5019C1D07A502005F35D8 /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E5121D74ECAA0098839E;
+			remoteInfo = "RCTAnimation tvOS";
+		};
+		2DC39ABA1D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138DEE021B9EDDDB007F4EA5 /* RCTCameraRoll.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DB35B031D74E94000FFDB3E;
+			remoteInfo = "RCTCameraRoll tvOS";
+		};
+		2DC39ABE1D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 134A8A201AACED6A00945AAE /* RCTGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DB35B141D74E9FF00FFDB3E;
+			remoteInfo = "RCTGeolocation tvOS";
+		};
+		2DC39AC21D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13417FE31AA91428003F314A /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E4EC1D74EA800098839E;
+			remoteInfo = "RCTImage tvOS";
+		};
+		2DC39AC61D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 357858F81B28D2C400341EDB /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E5041D74EAF20098839E;
+			remoteInfo = "RCTLinking tvOS";
+		};
+		2DC39ACA1D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 134180261AA91779003F314A /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E52B1D74ED160098839E;
+			remoteInfo = "RCTNetwork tvOS";
+		};
+		2DC39ACE1D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14DC67E71AB71876001358AB /* RCTPushNotification.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E53E1D74ED910098839E;
+			remoteInfo = "RCTPushNotification tvOS";
+		};
+		2DC39AD21D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CC9D481AEED2B90020D1C2 /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E56A1D74EEA00098839E;
+			remoteInfo = "RCTSettings tvOS";
+		};
+		2DC39AD61D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58005BE41ABA80530062E044 /* RCTTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E54C1D74EDE10098839E;
+			remoteInfo = "RCTTest tvOS";
+		};
+		2DC39ADA1D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13417FEA1AA914B8003F314A /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E5781D74EEE30098839E;
+			remoteInfo = "RCTText tvOS";
+		};
+		2DC39ADE1D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85B82911AB6D5CE003F4FE2 /* RCTVibration.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E58F1D74FD2C0098839E;
+			remoteInfo = "RCTVibration tvOS";
+		};
+		2DC39AE21D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDECA1B0651EA00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DD2E59D1D74FDBC0098839E;
+			remoteInfo = "RCTWebSocket tvOS";
+		};
+		2DC39AE61D7648FD00014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14AADEFF1AC3DB95002390C9 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DC1A4A41D74E3C300E39E61;
+			remoteInfo = "React tvOS";
+		};
+		2DC39C101D76548000014B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = UIExplorer;
+		};
 		357859001B28D2C500341EDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 357858F81B28D2C400341EDB /* RCTLinking.xcodeproj */;
@@ -242,6 +414,10 @@
 		27B885551BED29AF00008352 /* RCTRootViewIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTRootViewIntegrationTests.m; sourceTree = "<group>"; };
 		27F441E81BEBE5030039B79C /* FlexibleSizeExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlexibleSizeExampleView.m; path = UIExplorer/NativeExampleViews/FlexibleSizeExampleView.m; sourceTree = "<group>"; };
 		27F441EA1BEBE5030039B79C /* FlexibleSizeExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlexibleSizeExampleView.h; path = UIExplorer/NativeExampleViews/FlexibleSizeExampleView.h; sourceTree = "<group>"; };
+		2DC39A7F1D7648FD00014B71 /* UIExplorertvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIExplorertvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC39A941D7648FD00014B71 /* UIExplorertvOSUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIExplorertvOSUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC39A9F1D7648FD00014B71 /* UIExplorertvOSIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIExplorertvOSIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC39AEC1D76494E00014B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = UIExplorer/Base.lproj/LaunchScreenTV.xib; sourceTree = "<group>"; };
 		357858F81B28D2C400341EDB /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = ../../Libraries/LinkingIOS/RCTLinking.xcodeproj; sourceTree = "<group>"; };
 		3D299BAE1D33EBFA00FA1057 /* RCTLoggingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTLoggingTests.m; sourceTree = "<group>"; };
 		3D2AFAF41D646CF80089D1A3 /* LegacyImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LegacyImage.png; path = UIExplorer/LegacyImage.png; sourceTree = "<group>"; };
@@ -306,6 +482,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2DC39A7C1D7648FD00014B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC39B0D1D764A8F00014B71 /* libRCTActionSheet tvOS.a in Frameworks */,
+				2DC39B0E1D764A8F00014B71 /* libRCTAdSupport tvOS.a in Frameworks */,
+				2DC39B0F1D764A8F00014B71 /* libRCTAnimation tvOS.a in Frameworks */,
+				2DC39B101D764A8F00014B71 /* libRCTCameraRoll tvOS.a in Frameworks */,
+				2DC39B111D764A8F00014B71 /* libRCTGeolocation tvOS.a in Frameworks */,
+				2DC39B121D764A8F00014B71 /* libRCTImage tvOS.a in Frameworks */,
+				2DC39B131D764A8F00014B71 /* libRCTLinking tvOS.a in Frameworks */,
+				2DC39B141D764A8F00014B71 /* libRCTNetwork tvOS.a in Frameworks */,
+				2DC39B151D764A8F00014B71 /* libRCTPushNotification tvOS.a in Frameworks */,
+				2DC39B161D764A8F00014B71 /* libRCTSettings tvOS.a in Frameworks */,
+				2DC39B181D764A8F00014B71 /* libRCTText tvOS.a in Frameworks */,
+				2DC39B191D764A8F00014B71 /* libRCTVibration tvOS.a in Frameworks */,
+				2DC39B1A1D764A8F00014B71 /* libRCTWebSocket tvOS.a in Frameworks */,
+				2DC39B1B1D764A8F00014B71 /* libReact tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC39A911D7648FD00014B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC39B961D764D7800014B71 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC39A9C1D7648FD00014B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -344,6 +556,7 @@
 			isa = PBXGroup;
 			children = (
 				13417FE81AA91428003F314A /* libRCTImage.a */,
+				2DC39AC31D7648FD00014B71 /* libRCTImage tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -352,6 +565,7 @@
 			isa = PBXGroup;
 			children = (
 				13417FEF1AA914B8003F314A /* libRCTText.a */,
+				2DC39ADB1D7648FD00014B71 /* libRCTText tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -360,6 +574,7 @@
 			isa = PBXGroup;
 			children = (
 				1341802B1AA91779003F314A /* libRCTNetwork.a */,
+				2DC39ACB1D7648FD00014B71 /* libRCTNetwork tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,6 +583,7 @@
 			isa = PBXGroup;
 			children = (
 				1344545A1AAFCAAE003F0779 /* libRCTAdSupport.a */,
+				2DC39AB31D7648FD00014B71 /* libRCTAdSupport tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -376,6 +592,7 @@
 			isa = PBXGroup;
 			children = (
 				134A8A251AACED6A00945AAE /* libRCTGeolocation.a */,
+				2DC39ABF1D7648FD00014B71 /* libRCTGeolocation tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -384,6 +601,7 @@
 			isa = PBXGroup;
 			children = (
 				138DEE091B9EDDDB007F4EA5 /* libRCTCameraRoll.a */,
+				2DC39ABB1D7648FD00014B71 /* libRCTCameraRoll tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -392,6 +610,7 @@
 			isa = PBXGroup;
 			children = (
 				139FDED91B0651EA00C62182 /* libRCTWebSocket.a */,
+				2DC39AE31D7648FD00014B71 /* libRCTWebSocket tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -404,6 +623,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				2DC39AEB1D76494E00014B71 /* LaunchScreenTV.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				1323F18D1C04ABAC0091BED0 /* Supporting Files */,
 			);
@@ -414,6 +634,7 @@
 			isa = PBXGroup;
 			children = (
 				13E501A31D07A502005F35D8 /* libRCTAnimation.a */,
+				2DC39AB71D7648FD00014B71 /* libRCTAnimation tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -475,6 +696,7 @@
 			isa = PBXGroup;
 			children = (
 				147CED4B1AB34F8C00DA3E4C /* libRCTActionSheet.a */,
+				2DC39AAF1D7648FD00014B71 /* libRCTActionSheet tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -483,6 +705,7 @@
 			isa = PBXGroup;
 			children = (
 				14AADF041AC3DB95002390C9 /* libReact.a */,
+				2DC39AE71D7648FD00014B71 /* libReact tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -514,6 +737,7 @@
 			isa = PBXGroup;
 			children = (
 				14DC67F11AB71876001358AB /* libRCTPushNotification.a */,
+				2DC39ACF1D7648FD00014B71 /* libRCTPushNotification tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -533,6 +757,7 @@
 			isa = PBXGroup;
 			children = (
 				357859011B28D2C500341EDB /* libRCTLinking.a */,
+				2DC39AC71D7648FD00014B71 /* libRCTLinking tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -541,6 +766,7 @@
 			isa = PBXGroup;
 			children = (
 				58005BEE1ABA80530062E044 /* libRCTTest.a */,
+				2DC39AD71D7648FD00014B71 /* libRCTTest tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -549,6 +775,7 @@
 			isa = PBXGroup;
 			children = (
 				834C36D21AF8DA610019C93C /* libRCTSettings.a */,
+				2DC39AD31D7648FD00014B71 /* libRCTSettings tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -573,6 +800,9 @@
 				13B07F961A680F5B00A75B9A /* UIExplorer.app */,
 				004D289E1AAF61C70097A701 /* UIExplorerUnitTests.xctest */,
 				143BC5951B21E3E100462512 /* UIExplorerIntegrationTests.xctest */,
+				2DC39A7F1D7648FD00014B71 /* UIExplorertvOS.app */,
+				2DC39A941D7648FD00014B71 /* UIExplorertvOSUnitTests.xctest */,
+				2DC39A9F1D7648FD00014B71 /* UIExplorertvOSIntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -581,6 +811,7 @@
 			isa = PBXGroup;
 			children = (
 				D85B829C1AB6D5CE003F4FE2 /* libRCTVibration.a */,
+				2DC39ADF1D7648FD00014B71 /* libRCTVibration tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -641,6 +872,60 @@
 			productReference = 143BC5951B21E3E100462512 /* UIExplorerIntegrationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2DC39A7E1D7648FD00014B71 /* UIExplorertvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC39AE81D7648FD00014B71 /* Build configuration list for PBXNativeTarget "UIExplorertvOS" */;
+			buildPhases = (
+				2DC39A7B1D7648FD00014B71 /* Sources */,
+				2DC39A7C1D7648FD00014B71 /* Frameworks */,
+				2DC39A7D1D7648FD00014B71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIExplorertvOS;
+			productName = UIExplorertvOS;
+			productReference = 2DC39A7F1D7648FD00014B71 /* UIExplorertvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DC39A931D7648FD00014B71 /* UIExplorertvOSUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC39AE91D7648FD00014B71 /* Build configuration list for PBXNativeTarget "UIExplorertvOSUnitTests" */;
+			buildPhases = (
+				2DC39A901D7648FD00014B71 /* Sources */,
+				2DC39A911D7648FD00014B71 /* Frameworks */,
+				2DC39A921D7648FD00014B71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC39A961D7648FD00014B71 /* PBXTargetDependency */,
+			);
+			name = UIExplorertvOSUnitTests;
+			productName = UIExplorertvOSUnitTests;
+			productReference = 2DC39A941D7648FD00014B71 /* UIExplorertvOSUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DC39A9E1D7648FD00014B71 /* UIExplorertvOSIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC39AEA1D7648FD00014B71 /* Build configuration list for PBXNativeTarget "UIExplorertvOSIntegrationTests" */;
+			buildPhases = (
+				2DC39A9B1D7648FD00014B71 /* Sources */,
+				2DC39A9C1D7648FD00014B71 /* Frameworks */,
+				2DC39A9D1D7648FD00014B71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC39AA11D7648FD00014B71 /* PBXTargetDependency */,
+				2DC39C111D76548000014B71 /* PBXTargetDependency */,
+			);
+			name = UIExplorertvOSIntegrationTests;
+			productName = UIExplorertvOSIntegrationTests;
+			productReference = 2DC39A9F1D7648FD00014B71 /* UIExplorertvOSIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -656,6 +941,17 @@
 					143BC5941B21E3E100462512 = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					2DC39A7E1D7648FD00014B71 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2DC39A931D7648FD00014B71 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2DC39A7E1D7648FD00014B71;
+					};
+					2DC39A9E1D7648FD00014B71 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2DC39A7E1D7648FD00014B71;
 					};
 				};
 			};
@@ -737,6 +1033,9 @@
 				13B07F861A680F5B00A75B9A /* UIExplorer */,
 				004D289D1AAF61C70097A701 /* UIExplorerUnitTests */,
 				143BC5941B21E3E100462512 /* UIExplorerIntegrationTests */,
+				2DC39A7E1D7648FD00014B71 /* UIExplorertvOS */,
+				2DC39A931D7648FD00014B71 /* UIExplorertvOSUnitTests */,
+				2DC39A9E1D7648FD00014B71 /* UIExplorertvOSIntegrationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -819,6 +1118,111 @@
 			remoteRef = 14DC67F01AB71876001358AB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		2DC39AAF1D7648FD00014B71 /* libRCTActionSheet tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTActionSheet tvOS.a";
+			remoteRef = 2DC39AAE1D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39AB31D7648FD00014B71 /* libRCTAdSupport tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTAdSupport tvOS.a";
+			remoteRef = 2DC39AB21D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39AB71D7648FD00014B71 /* libRCTAnimation tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTAnimation tvOS.a";
+			remoteRef = 2DC39AB61D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39ABB1D7648FD00014B71 /* libRCTCameraRoll tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTCameraRoll tvOS.a";
+			remoteRef = 2DC39ABA1D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39ABF1D7648FD00014B71 /* libRCTGeolocation tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTGeolocation tvOS.a";
+			remoteRef = 2DC39ABE1D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39AC31D7648FD00014B71 /* libRCTImage tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTImage tvOS.a";
+			remoteRef = 2DC39AC21D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39AC71D7648FD00014B71 /* libRCTLinking tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTLinking tvOS.a";
+			remoteRef = 2DC39AC61D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39ACB1D7648FD00014B71 /* libRCTNetwork tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTNetwork tvOS.a";
+			remoteRef = 2DC39ACA1D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39ACF1D7648FD00014B71 /* libRCTPushNotification tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTPushNotification tvOS.a";
+			remoteRef = 2DC39ACE1D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39AD31D7648FD00014B71 /* libRCTSettings tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTSettings tvOS.a";
+			remoteRef = 2DC39AD21D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39AD71D7648FD00014B71 /* libRCTTest tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTTest tvOS.a";
+			remoteRef = 2DC39AD61D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39ADB1D7648FD00014B71 /* libRCTText tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTText tvOS.a";
+			remoteRef = 2DC39ADA1D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39ADF1D7648FD00014B71 /* libRCTVibration tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTVibration tvOS.a";
+			remoteRef = 2DC39ADE1D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39AE31D7648FD00014B71 /* libRCTWebSocket tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTWebSocket tvOS.a";
+			remoteRef = 2DC39AE21D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DC39AE71D7648FD00014B71 /* libReact tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact tvOS.a";
+			remoteRef = 2DC39AE61D7648FD00014B71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		357859011B28D2C500341EDB /* libRCTLinking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -869,6 +1273,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		143BC5931B21E3E100462512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC39A7D1D7648FD00014B71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC39AEE1D76497B00014B71 /* LaunchScreenTV.xib in Resources */,
+				2DC39AF21D7649C500014B71 /* LegacyImage.png in Resources */,
+				2DC39AF01D7649B500014B71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC39A921D7648FD00014B71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC39BC41D764F8800014B71 /* TestBundle.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC39A9D1D7648FD00014B71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -945,6 +1374,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2DC39A7B1D7648FD00014B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC39AF11D7649B900014B71 /* main.m in Sources */,
+				2DC39AEF1D7649B000014B71 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC39A901D7648FD00014B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC39AFE1D764A2500014B71 /* RCTImageLoaderTests.m in Sources */,
+				2DC39AF71D764A2500014B71 /* RCTBridgeTests.m in Sources */,
+				2DC39AFB1D764A2500014B71 /* RCTEventDispatcherTests.m in Sources */,
+				2DC39AF61D764A2500014B71 /* RCTAllocationTests.m in Sources */,
+				2DC39AFC1D764A2500014B71 /* RCTGzipTests.m in Sources */,
+				2DC39AFD1D764A2500014B71 /* RCTImageLoaderHelpers.m in Sources */,
+				2DC39B071D764A2500014B71 /* RCTComponentPropsTests.m in Sources */,
+				2DC39AF91D764A2500014B71 /* RCTConvert_NSURLTests.m in Sources */,
+				2DC39B041D764A2500014B71 /* RCTModuleMethodTests.m in Sources */,
+				2DC39B031D764A2500014B71 /* RCTModuleInitNotificationRaceTests.m in Sources */,
+				2DC39B011D764A2500014B71 /* RCTMethodArgumentTests.m in Sources */,
+				2DC39AF81D764A2500014B71 /* RCTJSCExecutorTests.m in Sources */,
+				2DC39AF51D764A2500014B71 /* RCTBundleURLProviderTests.m in Sources */,
+				2DC39AF41D764A2500014B71 /* RCTURLUtilsTests.m in Sources */,
+				2DC39B001D764A2500014B71 /* RCTJSONTests.m in Sources */,
+				2DC39B051D764A2500014B71 /* RCTShadowViewTests.m in Sources */,
+				2DC39AFA1D764A2500014B71 /* RCTFontTests.m in Sources */,
+				2DC39AFF1D764A2500014B71 /* RCTImageUtilTests.m in Sources */,
+				2DC39B061D764A2500014B71 /* RCTUIManagerTests.m in Sources */,
+				2DC39B021D764A2500014B71 /* RCTModuleInitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC39A9B1D7648FD00014B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC39B0A1D764A3100014B71 /* UIExplorerIntegrationTests.m in Sources */,
+				2DC39B081D764A3100014B71 /* RCTLoggingTests.m in Sources */,
+				2DC39B0C1D764A3100014B71 /* RCTUIManagerScenarioTests.m in Sources */,
+				2DC39B0B1D764A3100014B71 /* UIExplorerSnapshotTests.m in Sources */,
+				2DC39B091D764A3100014B71 /* RCTRootViewIntegrationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -952,6 +1429,21 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* UIExplorer */;
 			targetProxy = 143BC59B1B21E3E100462512 /* PBXContainerItemProxy */;
+		};
+		2DC39A961D7648FD00014B71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DC39A7E1D7648FD00014B71 /* UIExplorertvOS */;
+			targetProxy = 2DC39A951D7648FD00014B71 /* PBXContainerItemProxy */;
+		};
+		2DC39AA11D7648FD00014B71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DC39A7E1D7648FD00014B71 /* UIExplorertvOS */;
+			targetProxy = 2DC39AA01D7648FD00014B71 /* PBXContainerItemProxy */;
+		};
+		2DC39C111D76548000014B71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* UIExplorer */;
+			targetProxy = 2DC39C101D76548000014B71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -963,6 +1455,14 @@
 			);
 			name = LaunchScreen.xib;
 			path = UIExplorer;
+			sourceTree = "<group>";
+		};
+		2DC39AEB1D76494E00014B71 /* LaunchScreenTV.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC39AEC1D76494E00014B71 /* Base */,
+			);
+			name = LaunchScreenTV.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1074,12 +1574,157 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_REFERENCE_IMAGE_DIR=\"\\\"$(SOURCE_ROOT)/$(PROJECT_NAME)IntegrationTests/ReferenceImages\\\"\"",
+				);
 				INFOPLIST_FILE = UIExplorerIntegrationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.React.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIExplorer.app/UIExplorer";
+			};
+			name = Release;
+		};
+		2DC39AA61D7648FD00014B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = UIExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.React.UIExplorertvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2DC39AA71D7648FD00014B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = UIExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.React.UIExplorertvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2DC39AA81D7648FD00014B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/UIExplorerUnitTests/**",
+				);
+				INFOPLIST_FILE = UIExplorerUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UIExplorerUnitTests",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.React.UIExplorertvOSUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIExplorertvOS.app/UIExplorertvOS";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2DC39AA91D7648FD00014B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/UIExplorerUnitTests/**",
+				);
+				INFOPLIST_FILE = UIExplorerUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UIExplorerUnitTests",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.React.UIExplorertvOSUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIExplorertvOS.app/UIExplorertvOS";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2DC39AAA1D7648FD00014B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_REFERENCE_IMAGE_DIR=\"\\\"$(SOURCE_ROOT)/UIExplorerIntegrationTests/ReferenceImages\\\"\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../Libraries/**",
+				);
+				INFOPLIST_FILE = UIExplorerIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.React.UIExplorertvOSIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIExplorertvOS.app/UIExplorertvOS";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2DC39AAB1D7648FD00014B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../Libraries/**",
+				);
+				INFOPLIST_FILE = UIExplorerIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.React.UIExplorertvOSIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIExplorertvOS.app/UIExplorertvOS";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Release;
 		};
@@ -1246,6 +1891,33 @@
 			buildConfigurations = (
 				143BC59E1B21E3E100462512 /* Debug */,
 				143BC59F1B21E3E100462512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC39AE81D7648FD00014B71 /* Build configuration list for PBXNativeTarget "UIExplorertvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC39AA61D7648FD00014B71 /* Debug */,
+				2DC39AA71D7648FD00014B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC39AE91D7648FD00014B71 /* Build configuration list for PBXNativeTarget "UIExplorertvOSUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC39AA81D7648FD00014B71 /* Debug */,
+				2DC39AA91D7648FD00014B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC39AEA1D7648FD00014B71 /* Build configuration list for PBXNativeTarget "UIExplorertvOSIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC39AAA1D7648FD00014B71 /* Debug */,
+				2DC39AAB1D7648FD00014B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
