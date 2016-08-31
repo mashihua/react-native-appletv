@@ -103,6 +103,7 @@
 		2DC39B1B1D764A8F00014B71 /* libReact tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AE71D7648FD00014B71 /* libReact tvOS.a */; };
 		2DC39B961D764D7800014B71 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D6D7101B220EB3001FB087 /* libOCMock.a */; };
 		2DC39BC41D764F8800014B71 /* TestBundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 3DD981D51D33C6FB007DC7BE /* TestBundle.js */; };
+		2DC39CC81D77601200014B71 /* libRCTTest tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC39AD71D7648FD00014B71 /* libRCTTest tvOS.a */; };
 		3578590A1B28D2CF00341EDB /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 357859011B28D2C500341EDB /* libRCTLinking.a */; };
 		3D299BAF1D33EBFA00FA1057 /* RCTLoggingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D299BAE1D33EBFA00FA1057 /* RCTLoggingTests.m */; };
 		3D2AFAF51D646CF80089D1A3 /* LegacyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AFAF41D646CF80089D1A3 /* LegacyImage.png */; };
@@ -515,6 +516,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC39CC81D77601200014B71 /* libRCTTest tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
