@@ -37,7 +37,10 @@ function parseDevicesResult(result: string): Array<string> {
  */
 function getDevices(): Array<string> {
   try {
-    const devicesResult = child_process.execSync('adb devices');
+    const path = process.env.ANDROID_HOME
+      ? process.env.ANDROID_HOME + '/platform-tools/adb'
+      : 'adb';
+    const devicesResult = child_process.execSync(path + ' devices');
     return parseDevicesResult(devicesResult.toString());
   } catch (e) {
     return [];
